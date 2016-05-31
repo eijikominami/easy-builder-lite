@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="jp.surbiton.easybuilderlite" android:versionName="1.0.0" android:versionCode="1" android:installLocation="preferExternal">
+  <uses-sdk android:minSdkVersion="10" android:targetSdkVersion="1" />
+  <supports-screens android:smallScreens="true" android:normalScreens="true" android:largeScreens="true" android:anyDensity="true" />
+  <application
+      android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+      android:largeHeap="true"
+      android:debuggable="false"
+      android:hardwareAccelerated="false">
+</application>
+</manifest>
